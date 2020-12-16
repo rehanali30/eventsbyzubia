@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins&family=Gentium+Basic:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #FFE274 0%, rgba(245, 152, 64, 0.8) 100%);
+}
+.header {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    align-content: center;
+    border-bottom: 2px solid white;
+
+}
+.header>img {
+    width: 10vh;
+    margin: 5px 15px;
+}
+.name {
+    margin: auto 0;
+    font: 40px 'Italianno', cursive;
+    color: #0300FA;
+}
+.title {
+    font-family: 'Gentium Basic', serif;
+    color: #02288A;
+    margin: 30px 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-family: 'Poppins', serif;
+}
+.subcontent{
+    margin: 10px;
+}
+.description{
+    width: 60%;
+}
+.first {
+    margin: 10px;
+    max-width: 50%;
+}
+.second {
+    margin: 10px;
+    width: 25%;
+}
+.services {
+    width: 25%;
+}
+.services>img {
+    max-width: 100%;
+}

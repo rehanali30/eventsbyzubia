@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins&family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: linear-gradient(180deg, #FFDF64 0%, rgba(217, 108, 6, 0.8) 100%);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+.name {
+    margin: 0.3em 0;
+    font: 3rem 'Italianno', cursive;
+    color: #0300FA;
+}
+.tagline {
+    padding: 0.75em 1em;
+    font: 1.2rem 'Poppins', serif;
+    color: #0300b3;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.aboutus {
+    margin: 2.5em 1em;
+    padding: 1em 10vw;
+    font: 14px 'Poppins', serif;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3)
+}
+.aboutus>p {
+    padding: 0.3em
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+.card {
+    background: #d7d7ed;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 22vw;
+    height: 24rem;
+    border-radius: 15px;
+    font: 20px georgia;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+}
+.card>img {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.card:hover {
+    width: 23vw;
+    height: 25rem;
+    font-size: 22px;
+}
+.buttons {
+    text-decoration: none;
+    font: 18px 'Poppins', serif;
+    background-color: #3A445D;
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 5px;
+    transition: all 200ms ease-in-out;
+}
+.buttons:hover {
+    background-color: #344879;
+}
+
