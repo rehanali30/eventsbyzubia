@@ -11,12 +11,17 @@
     flex-direction: column;
     align-content: center;
 }
-
 .header {
+    background: center / cover no-repeat url(../img/background.jpg);
+    padding: 5em;
+}
+.headcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2em;
+    
+    padding: 2em 1em;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .name {
     margin: 0.3em 0;
@@ -28,20 +33,25 @@
     font: 1.2rem 'Poppins', serif;
     color: #0300b3;
     text-align: center;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 .aboutus {
-    margin: 2.5em 1em;
-    padding: 1em 10vw;
+    margin: 2.5em 3em;
     font: 14px 'Poppins', serif;
     text-align: center;
-    background: rgba(255, 255, 255, 0.3)
+}
+.aboutus>h1 {
+    font-weight: normal;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 .aboutus>p {
-    padding: 0.3em
+    padding: 1em 10vw;
+    background: rgba(255, 255, 255, 0.3);
 }
-
 .menu {
     display: flex;
     justify-content: space-around;
@@ -52,7 +62,7 @@
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 1em;
     width: 22vw;
     height: 24rem;
     border-radius: 15px;
@@ -82,5 +92,64 @@
 }
 .buttons:hover {
     background-color: #344879;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    font: 1rem 'Poppins', serif;
+    align-items: center;
+    background-color: #891c01da;
+}
+footer p {
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+}
+.links div{
+    margin: 1em;
+    padding: 1em;
+}
+.links a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 200ms ease-in-out;
+}
+.links a:hover {
+    color: rgba(0, 0, 0, 0.6)
+}
+.contactus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contactus>div {
+    margin: 1em;
+    padding: 1em;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact a{
+    display: flex;
+    padding: 0.5em;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 200ms ease-in-out;
+}
+.contact a:hover {
+    color: rgba(0, 0, 0, 0.6)
+}
+.contact img{
+    width: 1.5rem;
+    margin: 0.2rem;
+}
+.social img {
+    padding: 0.5em;
+    width: 3rem;
 }
 
