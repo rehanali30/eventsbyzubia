@@ -43,7 +43,7 @@ body{
     height: 70vh;
     max-width: 100%;
     box-shadow: 0 0 15px black;
-    
+    animation: 0.5s ease-in 2s infinite reverse both running slidein;
 }
 .content {
     display: flex;
