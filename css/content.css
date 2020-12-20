@@ -12,18 +12,35 @@ body{
     display: flex;
     margin: 10px;
     padding: 5px;
-    text-decoration: none;
     align-content: center;
     border-bottom: 2px solid white;
 
 }
-.header>img {
+.header>a {
+    display: flex;
+    text-decoration: none;
+}
+.header>a>img {
     width: 10vh;
     margin: 5px 15px;
 }
+#contactBtn {
+    margin-left: auto;
+    height: max-content;
+    vertical-align: middle;
+    color: white;
+    font: 1rem 'Poppins', sans-serif;
+    background-color: #110ed6;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+#contactBtn>img {
+    width: 1rem;
+    margin: 0 0.5em;
+}
 .name {
     margin: auto 0;
-    font: 40px 'Italianno', cursive;
+    font: 2.5rem 'Italianno', cursive;
     color: #0300FA;
 }
 .title {
@@ -55,16 +72,21 @@ body{
     margin: 10px;
 }
 .subcontent>img {
+    display: block;
     max-width: 100%;
+    text-align: center;
+    margin: 1em auto;
 }
 .description{
     width: 60%;
 }
 #first {
+    display: inline;
     margin: 0.5em;
     max-width: 65%;
 }
 #second {
+    display: inline;
     margin: 0.5em;
     width: 30%;
 }
