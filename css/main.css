@@ -11,6 +11,7 @@
     flex-direction: column;
     align-content: center;
 }
+
 .header {
     background: center / cover no-repeat url(../img/background.png);
     box-shadow: inset 0 0 15px black;
@@ -21,7 +22,7 @@
     flex-direction: column;
     align-items: center;
     padding: 2em 1em;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.78);
 }
 .name {
     margin: 0.3em 0;
@@ -36,34 +37,19 @@
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
-.aboutus {
-    margin: 2.5em 3em;
-    font: 14px 'Poppins', serif;
+
+.menu-header {
+    font: normal 2rem  'Poppins', serif;
     text-align: center;
-}
-.aboutus>h1 {
-    font-weight: normal;
-    margin: 0.5em;
+    margin: 2em 0 1em 0;
     padding: 0.5em;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-}
-.aboutus>p {
-    padding: 1em 10vw;
-    background: rgba(255, 255, 255, 0.3);
 }
 .menu {
     display: flex;
     justify-content: space-around;
-    margin: 1em;
-}
-.container>h1 {
-    font: normal 2rem  'Poppins', serif;
-    text-align: center;
-    margin: 0.5em;
-    padding: 0.5em;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    margin: 0 1em;
 }
 .card {
     background: #d7d7ed;
@@ -72,25 +58,25 @@
     flex-direction: column;
     padding: 1em;
     width: 22vw;
-    height: 24rem;
+    height: 23rem;
     border-radius: 15px;
-    font: 20px georgia;
+    font: 1.3rem georgia;
     text-align: center;
     transition: all 200ms ease-in-out;
 }
 .card>img {
     width: 100%;
-    margin: 15px 0;
+    margin: 0.5em 0;
     border-radius: 5px;
 }
 .card:hover {
     width: 23vw;
-    height: 25rem;
-    font-size: 22px;
+    height: 24rem;
+    font-size: 1.35rem;
 }
 .buttons {
     text-decoration: none;
-    font: 18px 'Poppins', serif;
+    font: 1rem 'Poppins', serif;
     background-color: #3A445D;
     color: white;
     padding: 0.5em;
@@ -100,5 +86,22 @@
 }
 .buttons:hover {
     background-color: #344879;
+}
+
+.aboutus {
+    margin: 3em 1em;
+    font: 1rem 'Poppins', serif;
+    text-align: center;
+}
+.aboutus>h1 {
+    font-weight: normal;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.aboutus>p {
+    padding: 1em 10vw;
+    background: rgba(255, 255, 255, 0.4);
 }
 
