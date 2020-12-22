@@ -12,3 +12,13 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 3000);
 }
+
+function contact() {
+  var contact = document.getElementById("contactContainer");
+  contact.style.display = "flex";
+  window.onclick = function(event) {
+    if (event.target == contact) {
+      contact.style.display = "none";
+    }
+  }
+}
