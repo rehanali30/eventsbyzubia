@@ -20,8 +20,8 @@ body{
     display: flex;
     text-decoration: none;
 }
-.header>a>img {
-    width: 10vh;
+#logo {
+    height: 10vh;
     margin: 0.2em 1em;
 }
 .name {
