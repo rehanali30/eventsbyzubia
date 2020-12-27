@@ -63,10 +63,10 @@ header>a {
 #contactBtn {
     margin: auto 0 auto auto;
     padding: 0.5em;
-    height: max-content;
+    height: 2.5em;
     font: 1rem 'Poppins', sans-serif;
     color: white;
-    background-color: #1d298d;
+    background-color: #2232b9;
     border-radius: 10px;
     transition: all 200ms ease-in-out;
 }
@@ -75,7 +75,7 @@ header>a {
     width: 1rem;
 }
 #contactBtn:hover {
-    background-color: #003dd8;
+    background-color: #0040e2;
     cursor: pointer;
 }
 
@@ -112,11 +112,27 @@ header>a {
     padding: 2em 1em;
     display: flex;
     flex-direction: column;
+    position: relative;
     height: min-content;
     width: max-content;
     font: 1.5rem 'Poppins', sans-serif;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 10em black;
+}
+#contactPopup>span {
+    position: absolute;
+    right: 0.3em;
+    top: 0.3em;
+}
+#contactPopup>span>img{
+    padding: 0.5em;
+    width: 2.1em;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+#contactPopup>span>img:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 #contactPopup>p {
     padding: 1.5rem;
@@ -238,6 +254,7 @@ header>a {
 
 @media (max-width: 720px) {
     .img-md {
+        margin: 0;
         width: 100%;
     }
     .img-sm {

@@ -22,3 +22,8 @@ function contact() {
     }
   }
 }
+
+function closeContact() {
+  var contact = document.getElementById("contactContainer");
+  contact.style.display = "none";
+}
