@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,28 @@
     <link rel="stylesheet" href="./css/content.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
+
 <body>
-    <div class="header">
+    <header>
         <a href="./index.html">
-            <img src="./img/Logo.png" alt="Logo">
-            <p class="name">Events By Zubia</p>
+            <img id="logo" src="./img/Logo.png" alt="Logo">
+            <p class="title">Events By Zubia</p>
         </a>
         <a onclick=contact() id="contactBtn">Get in touch with us!<img src="./icons/smiley.svg"></a>
-    </div>
+    </header>
+
     <div id="contactContainer">
         <div id="contactPopup">
-            <p id="contactHead">You can reach us by</p>
+            <p id="contactHeading">You can reach us by</p>
             <p>Mailing us at :</p>
             <a href="mailto:eventsbyzubia@gmail.com"><img src="./icons/mail.svg">  :  eventsbyzubia@gmail.com</a>
             <p>Calling us at :</p>
             <a href="tel:+"><img src="./icons/phone.svg">  :  </a>
         </div>
     </div>
-    <h1 class="title">Weddings in Europe</h1>
+    
+    <h1 class="heading">Weddings in Europe</h1>
+
     <div class="slideshow">
         <img class="slides" src="./img/euwedslide.jpg">
         <img class="slides" src="./img/euwedslide1.jpg">
@@ -36,9 +41,10 @@
         <img class="slides" src="./img/euwedslide7.jpg">
         <img class="slides" src="./img/euwedslide8.jpg">
     </div>   
+
     <div class="content">
         <div class="subcontent description">
-            <img src="./img/eurowed2.jpg" alt="Wedding Image">
+            <img class="img-lg" src="./img/eurowed2.jpg" alt="Wedding Image">
             <p><br> Destination weddings have become extremely popular over the last decade for various reasons. Having all your friends and family members on a beautiful destination for your special day, makes it worthwhile. <br><br>
                 <b>Europe</b> is always one of the dreamiest locations to get married. Getting proposed in front of the amazing <b>Eiffel tower in Paris</b>  or somewhere near the beautiful <b>Keukenhof</b> tulip garden in <b>Amsterdam</b> is such a straight out of a fairy tale!<br><br>
                 Having the most cinematic photographs at the white – and – blue washed islands in <b>Santorini, Greece</b>.<br><br>
@@ -54,40 +60,50 @@
                 <br>
             </ul>
             <p>Planning and providing our services to make your dream day the best and the most beautiful day of your lifetime while Europe provides you with the best scenic views which offer you with the best photographs and memories which you could remember and cherish for the rest of your lives.<br><br></p>
-            <img src="./img/eurowed1.jpg" alt="Wedding Image">
+            <img class="img-lg" src="./img/eurowed1.jpg" alt="Wedding Image">
         </div>
     </div>
+
     <footer>
-        <div class="links">
-            <div>
-                <p>Weddings</p>
-                <a href="./indwed.html">In India</a><br>
-                <a href="./euwed.html">In Europe</a>
-                <p>Cruise</p>
-                <a href="./cruwed.html">Wedding</a><br>
-                <a href="./crueve.html">Events</a>
+        <div class="navigation">
+            <div class="links-left">
+                <div class="links">
+                    <h3>Weddings</h3>
+                    <a href="./indwed.html">In India</a><br>
+                    <a href="./euwed.html">In Europe</a>
+                </div>
+                <div class="links">
+                    <h3>Cruise</h3>
+                    <a href="./cruwed.html">Wedding</a><br>
+                    <a href="./crueve.html">Events</a>
+                </div>
             </div>
-            <div>
-                <p>Events</p>
-                <a href="./corporate.html">Corporate</a><br>
-                <a href="./fundraise.html">Fundraising</a>
-                <p>Artist Management</p>
-                <a href="./artist.html">Get Info</a>
+            <div class="links-right">
+                <div class="links">
+                    <h3>Events</h3>
+                    <a href="./corporate.html">Corporate</a><br>
+                    <a href="./fundraise.html">Fundraising</a>
+                </div>
+                <div class="links">
+                    <h3>Artist Management</h3>
+                    <a href="./artist.html">Get Info</a>
+                </div>
             </div>
         </div>
-        <div class="contactus">
-            <div class="contact">
-                <p>Contact Us:</p>
+        <div class="contact-us">
+            <div class="contact-details">
+                <h3>Contact Us:</h3>
                 <a href="tel:+"><img src="./icons/phone.svg" alt="">  :  </a>
                 <a href="mailto:eventsbyzubia@gmail.com"><img src="./icons/mail.svg" alt="">  :  eventsbyzubia@gmail.com</a>
             </div>
-            <div class="social">
+            <div class="social-media">
                 <a href="https://instagram.com/eventsbyzubia?igshid=1pmkksrsae3nl"><img src="./icons/instagram.svg" alt=""></a>
                 <a href="https://m.facebook.com/Events-By-Zubia-107300000979732/"><img src="./icons/facebook.svg" alt=""></a>
                 <a href="https://mobile.twitter.com/eventsbyzubia"><img src="./icons/twitter.svg" alt=""></a>
             </div>
         </div>
     </footer>
-    <script src="./js/slideshow.js"></script>
+    <script src="./js/content.js"></script>
 </body>
+
 </html>

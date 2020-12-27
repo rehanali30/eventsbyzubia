@@ -3,7 +3,7 @@ footer {
     justify-content: space-evenly;
     font: 1rem 'Poppins', serif;
     align-items: baseline;
-    background-color: #891c01da;
+    background-color: #f33100da;
 }
 @media (max-width: 1024px){
     footer {
@@ -30,21 +30,30 @@ footer a {
     margin: 1em;
     padding: 0.5em;
 }
+
+.contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 @media (max-width: 480px){
     .links, .contact-us>div{
         margin: 0.5em;
         padding: 0.3em;
     }
-}
 
-.contact-us {
-    align-items: center;
-    justify-content: space-around;
+    .contact-us {
+        flex-direction: column;
+    }
 }
 
 .contact-details{
     display: flex;
     flex-direction: column;
+}
+.contact-details>h3 {
+    text-align: center;
 }
 .contact-details a{
     display: flex;

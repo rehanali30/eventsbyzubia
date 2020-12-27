@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,28 @@
     <link rel="stylesheet" href="./css/content.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
+
 <body>
-    <div class="header">
+    <header>
         <a href="./index.html">
-            <img src="./img/Logo.png" alt="Logo" id="logo">
-            <p class="name">Events By Zubia</p>
+            <img id="logo" src="./img/Logo.png" alt="Logo">
+            <p class="title">Events By Zubia</p>
         </a>
         <a onclick=contact() id="contactBtn">Get in touch with us!<img src="./icons/smiley.svg"></a>
-    </div>
+    </header>
+
     <div id="contactContainer">
         <div id="contactPopup">
-            <p id="contactHead">You can reach us by</p>
+            <p id="contactHeading">You can reach us by</p>
             <p>Mailing us at :</p>
             <a href="mailto:eventsbyzubia@gmail.com"><img src="./icons/mail.svg">  :  eventsbyzubia@gmail.com</a>
             <p>Calling us at :</p>
             <a href="tel:+"><img src="./icons/phone.svg">  :  </a>
         </div>
     </div>
-    <h1 class="title">Indian Weddings</h1>
+
+    <h1 class="heading">Indian Weddings</h1>
+
     <div class="slideshow">
         <img class="slides" src="./img/indwedslide1.jpg">
         <img class="slides" src="./img/indwedslide2.jpg">
@@ -35,18 +40,19 @@
         <img class="slides" src="./img/indwedslide7.jpg">
         <img class="slides" src="./img/indwedslide8.jpg">
         <img class="slides" src="./img/indwedslide9.jpg">
-    </div>      
+    </div>
+
     <div class="content">
         <div class="subcontent description">
             <p>We all have some wishes and dreams as to how our special day should be like. From that perfect partner for life to looking perfect, we at Events by Zubia bring your dreams to life.<br><br>
                It is not only your special day but ours too since we are much more than just being your service provider, but your partner to share this high of life. <br><br>
                Whether you would like to recreate your parents wedding or create something contemporary and chic, we will give you just what you want!<br><br>
             </p>
-            <img src="./img/wedind1.jpg" alt="Wedding Image" id="first">
-            <img src="./img/wedind2.JPG" alt="Wedding Image" id="second">
+            <img class="img-md" src="./img/wedind1.jpg" alt="Wedding Image">
+            <img class="img-sm" src="./img/wedind2.jpeg" alt="Wedding Image">
         </div>
         <div class="subcontent services">
-            <img src="./img/wedind3.jpg" alt="">
+            <img class="img-lg" src="./img/wedind3.jpg" alt="Wedding Image">
             <ul>
                 <br>
                 <li>Décor and Productions</li>
@@ -62,36 +68,45 @@
         </div>
     </div>
     <footer>
-        <div class="links">
-            <div>
-                <p>Weddings</p>
-                <a href="./indwed.html">In India</a><br>
-                <a href="./euwed.html">In Europe</a>
-                <p>Cruise</p>
-                <a href="./cruwed.html">Wedding</a><br>
-                <a href="./crueve.html">Events</a>
+        <div class="navigation">
+            <div class="links-left">
+                <div class="links">
+                    <h3>Weddings</h3>
+                    <a href="./indwed.html">In India</a><br>
+                    <a href="./euwed.html">In Europe</a>
+                </div>
+                <div class="links">
+                    <h3>Cruise</h3>
+                    <a href="./cruwed.html">Wedding</a><br>
+                    <a href="./crueve.html">Events</a>
+                </div>
             </div>
-            <div>
-                <p>Events</p>
-                <a href="./corporate.html">Corporate</a><br>
-                <a href="./fundraise.html">Fundraising</a>
-                <p>Artist Management</p>
-                <a href="./artist.html">Get Info</a>
+            <div class="links-right">
+                <div class="links">
+                    <h3>Events</h3>
+                    <a href="./corporate.html">Corporate</a><br>
+                    <a href="./fundraise.html">Fundraising</a>
+                </div>
+                <div class="links">
+                    <h3>Artist Management</h3>
+                    <a href="./artist.html">Get Info</a>
+                </div>
             </div>
         </div>
-        <div class="contactus">
-            <div class="contact">
-                <p>Contact Us:</p>
+        <div class="contact-us">
+            <div class="contact-details">
+                <h3>Contact Us:</h3>
                 <a href="tel:+"><img src="./icons/phone.svg" alt="">  :  </a>
                 <a href="mailto:eventsbyzubia@gmail.com"><img src="./icons/mail.svg" alt="">  :  eventsbyzubia@gmail.com</a>
             </div>
-            <div class="social">
+            <div class="social-media">
                 <a href="https://instagram.com/eventsbyzubia?igshid=1pmkksrsae3nl"><img src="./icons/instagram.svg" alt=""></a>
                 <a href="https://m.facebook.com/Events-By-Zubia-107300000979732/"><img src="./icons/facebook.svg" alt=""></a>
                 <a href="https://mobile.twitter.com/eventsbyzubia"><img src="./icons/twitter.svg" alt=""></a>
             </div>
         </div>
     </footer>
-    <script src="./js/slideshow.js"></script>
+    <script src="./js/content.js"></script>
 </body>
+
 </html>

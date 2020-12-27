@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,28 @@
     <link rel="stylesheet" href="./css/content.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
+
 <body>
-    <div class="header">
+    <header>
         <a href="./index.html">
-            <img src="./img/Logo.png" alt="Logo">
-            <p class="name">Events By Zubia</p>
+            <img id="logo" src="./img/Logo.png" alt="Logo">
+            <p class="title">Events By Zubia</p>
         </a>
         <a onclick=contact() id="contactBtn">Get in touch with us!<img src="./icons/smiley.svg"></a>
-    </div>
+    </header>
+
     <div id="contactContainer">
         <div id="contactPopup">
-            <p id="contactHead">You can reach us by</p>
+            <p id="contactHeading">You can reach us by</p>
             <p>Mailing us at :</p>
             <a href="mailto:eventsbyzubia@gmail.com"><img src="./icons/mail.svg">  :  eventsbyzubia@gmail.com</a>
             <p>Calling us at :</p>
             <a href="tel:+"><img src="./icons/phone.svg">  :  </a>
         </div>
     </div>
-    <h1 class="title">Corporate Events</h1>
+
+    <h1 class="heading">Corporate Events</h1>
+    
     <div class="slideshow">
         <img class="slides" src="./img/corpeveslide1.jpg">
         <img class="slides" src="./img/corpeveslide2.jpg">
@@ -32,17 +37,18 @@
         <img class="slides" src="./img/corpeveslide4.jpg">
         <img class="slides" src="./img/corpeveslide5.jpg">
         <img class="slides" src="./img/corpeveslide6.jpg">
-    </div>      
+    </div>
+
     <div class="content">
         <div class="subcontent description">
             <p><br> Be it a farewell party to your favorite colleague or organizing annual events for your employees, your brand identity and our creativity will be a great combination! <br><br>
                 That’s not all! From royal ball room parties to rock celebrations, motivational talks or award ceremonies, we’ve got you covered. <br><br>
                 Events by Zubia are as versatile as your personality. Tell us how your imagination and we shall personify that in reality. <br><br>
             </p>    
-            <img src="./img/corpeve1.jpg" alt="Wedding Image">
+            <img class="img-lg" src="./img/corpeve1.jpg" alt="Corporate Event">
         </div>
         <div class="subcontent services">
-            <img src="./img/corpeve2.jpg" alt="">
+            <img class="img-lg" src="./img/corpeve2.jpg" alt="Corporate Event">
             <ul>
                 <br>
                 <li>Press Conferences</li>
@@ -54,40 +60,50 @@
                 <li>Business Dinners</li>
                 <br>
             </ul>
-            <img src="./img/corpeve3.jpg" alt="">
+            <img class="img-lg" src="./img/corpeve3.jpg" alt="Corporate Event">
         </div>
     </div>
+
     <footer>
-        <div class="links">
-            <div>
-                <p>Weddings</p>
-                <a href="./indwed.html">In India</a><br>
-                <a href="./euwed.html">In Europe</a>
-                <p>Cruise</p>
-                <a href="./cruwed.html">Wedding</a><br>
-                <a href="./crueve.html">Events</a>
+        <div class="navigation">
+            <div class="links-left">
+                <div class="links">
+                    <h3>Weddings</h3>
+                    <a href="./indwed.html">In India</a><br>
+                    <a href="./euwed.html">In Europe</a>
+                </div>
+                <div class="links">
+                    <h3>Cruise</h3>
+                    <a href="./cruwed.html">Wedding</a><br>
+                    <a href="./crueve.html">Events</a>
+                </div>
             </div>
-            <div>
-                <p>Events</p>
-                <a href="./corporate.html">Corporate</a><br>
-                <a href="./fundraise.html">Fundraising</a>
-                <p>Artist Management</p>
-                <a href="./artist.html">Get Info</a>
+            <div class="links-right">
+                <div class="links">
+                    <h3>Events</h3>
+                    <a href="./corporate.html">Corporate</a><br>
+                    <a href="./fundraise.html">Fundraising</a>
+                </div>
+                <div class="links">
+                    <h3>Artist Management</h3>
+                    <a href="./artist.html">Get Info</a>
+                </div>
             </div>
         </div>
-        <div class="contactus">
-            <div class="contact">
-                <p>Contact Us:</p>
+        <div class="contact-us">
+            <div class="contact-details">
+                <h3>Contact Us:</h3>
                 <a href="tel:+"><img src="./icons/phone.svg" alt="">  :  </a>
                 <a href="mailto:eventsbyzubia@gmail.com"><img src="./icons/mail.svg" alt="">  :  eventsbyzubia@gmail.com</a>
             </div>
-            <div class="social">
+            <div class="social-media">
                 <a href="https://instagram.com/eventsbyzubia?igshid=1pmkksrsae3nl"><img src="./icons/instagram.svg" alt=""></a>
                 <a href="https://m.facebook.com/Events-By-Zubia-107300000979732/"><img src="./icons/facebook.svg" alt=""></a>
                 <a href="https://mobile.twitter.com/eventsbyzubia"><img src="./icons/twitter.svg" alt=""></a>
             </div>
         </div>
     </footer>
-    <script src="./js/slideshow.js"></script>
+    <script src="./js/content.js"></script>
 </body>
+
 </html>
