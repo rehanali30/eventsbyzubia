@@ -99,16 +99,11 @@ header {
     height: min-content;
     width: 23%;
     min-width: 150px;
-    max-width: 290px;
+    max-width: 300px;
     border-radius: 15px;
     font: 1.6rem 'Viaoda Libre', cursive;
     text-align: center;
     transition: all 200ms ease-in-out;
-}
-@media (max-width: 667px) {
-    .card {
-        width: 45%;
-    }
 }
 .card>img {
     width: 100%;
@@ -116,9 +111,17 @@ header {
     border-radius: 5px;
 }
 .card:hover {
-    width: 24%;
+    width: 25%;
     height: max-content;
     font-size: 1.7rem;
+}
+@media (max-width: 667px) {
+    .card {
+        width: 45%;
+    }
+    .card:hover {
+        width: 46%;
+    }
 }
 
 .buttons {

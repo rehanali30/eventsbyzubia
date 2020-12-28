@@ -5,6 +5,7 @@ footer {
     font: 1rem 'Poppins', serif;
     align-items: baseline;
     background-color: #f33100da;
+    border-top: 1px solid black;
 }
 @media (max-width: 1024px){
     footer {
