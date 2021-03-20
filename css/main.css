@@ -34,7 +34,7 @@ body {
 
 
 header {
-    background: center / cover no-repeat url(../img/background.png);
+    background: center / cover no-repeat url(../img/background.jpg);
     box-shadow: inset 0 0 15px black;
     padding: 5em 0;
 }
@@ -140,6 +140,103 @@ header {
     background-color: #003dd8;
 }
 
+#contactBtn {
+    box-shadow: 4px 4px 25px #6d6affc4;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 1.4em 1em;
+    padding: 0.6em;
+    background-color: #0300FA;
+    border-radius: 50%;
+    transition: all 200ms ease-in-out;
+    animation: 2s pulse infinite;
+}
+#contactBtn>img {
+    margin: 0.2em 0.3em 0 0.3em;
+    width: 2rem;
+}
+#contactBtn:hover {
+    background-color: #413dff;
+    cursor: pointer;
+}
+@keyframes pulse{
+    from{padding: 0.6em;}
+    50%{padding: 0.7em;}
+    to{padding: 0.6em;}
+}
+@media (max-width: 400px) {
+    #contactBtn {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 325px) {
+    #contactBtn {
+        font-size: 0.8rem;
+    }
+}
+
+#contactContainer {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+#contactPopup {
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: min-content;
+    width: max-content;
+    font: 1.5rem 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10em black;
+}
+#contactPopup>span {
+    position: absolute;
+    right: 0.3em;
+    top: 0.3em;
+}
+#contactPopup>span>img{
+    padding: 0.5em;
+    width: 2.1em;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+#contactPopup>span>img:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#contactPopup>p {
+    padding: 1.5rem;
+}
+#contactPopup>a {
+    margin: 0 1em;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+#contactPopup img {
+    margin: 0.2rem;
+    width: 1.5rem;
+}
+
+#contactHeading {
+    padding: 0 1em;
+    font: 2rem 'Viaoda Libre', cursive;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
 
 .aboutus {
     width: 90%;

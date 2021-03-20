@@ -35,15 +35,14 @@
                     <a href="./crueve.html" class="buttons">Events</a>
                 </div>
                 <div class="card">
-                    <p>EVENTS</p>
+                    <p>CORPORATE<br>EVENTS</p>
                     <img src="./img/events.png" alt="Event">
-                    <a href="./corporate.html" class="buttons">Corporate</a>
-                    <a href="./fundraise.html" class="buttons">Fundraising</a>
+                    <a href="./corporate.html" class="buttons">Know More</a>
                 </div>
                 <div class="card">
-                    <p>ARTIST MANAGEMENT</p>
+                    <p>ARTIST<br>MANAGEMENT</p>
                     <img src="./img/artist.png" alt="Artist">
-                    <a href="./artist.html" class="buttons">Get Info</a>
+                    <a href="./artist.html" class="buttons">Know More</a>
                 </div>
             </div>
         </div>
@@ -73,29 +72,42 @@
             </div>
             <div class="links-right">
                 <div class="links">
-                    <h3>Events</h3>
-                    <a href="./corporate.html">Corporate</a><br>
-                    <a href="./fundraise.html">Fundraising</a>
+                    <h3><a href="./corporate.html">Corporate Events</a></h3>
+                    
                 </div>
                 <div class="links">
-                    <h3>Artist Management</h3>
-                    <a href="./artist.html">Get Info</a>
+                    <h3><a href="./artist.html">Artist Management</a></h3>
                 </div>
             </div>
         </div>
         <div class="contact-us">
             <div class="contact-details">
                 <h3>Contact Us:</h3>
-                <a href="tel:+"><img src="./icons/phone.svg" alt="">  :  </a>
+                <a href="tel:+918976349444"><img src="./icons/phone.svg" alt="">  :  +91 8976349444</a>
                 <a href="mailto:eventsbyzubia@gmail.com"><img src="./icons/mail.svg" alt="">  :  eventsbyzubia@gmail.com</a>
             </div>
             <div class="social-media">
-                <a href="https://instagram.com/eventsbyzubia?igshid=1pmkksrsae3nl"><img src="./icons/instagram.svg" alt=""></a>
-                <a href="https://m.facebook.com/Events-By-Zubia-107300000979732/"><img src="./icons/facebook.svg" alt=""></a>
-                <a href="https://mobile.twitter.com/eventsbyzubia"><img src="./icons/twitter.svg" alt=""></a>
+                <a target="_blank" href="https://instagram.com/eventsbyzubia?igshid=1pmkksrsae3nl"><img src="./icons/instagram.svg" alt=""></a>
+                <a target="_blank" href="https://m.facebook.com/Events-By-Zubia-107300000979732/"><img src="./icons/facebook.svg" alt=""></a>
+                <a target="_blank" href="https://mobile.twitter.com/eventsbyzubia"><img src="./icons/twitter.svg" alt=""></a>
             </div>
         </div>
     </footer>
+
+    <a onclick=contact() id="contactBtn"><img src="./icons/phone-home.svg"></a>
+
+    <div id="contactContainer">
+        <div id="contactPopup">
+            <span onclick=closeContact()><img src="./icons/closeBtn.svg" alt="Close"></span>
+            <p id="contactHeading">You can reach us by</p>
+            <p>Mailing us at :</p>
+            <a href="mailto:eventsbyzubia@gmail.com"><img src="./icons/mail.svg">  :  eventsbyzubia@gmail.com</a>
+            <p>Calling us at :</p>
+            <a href="tel:+918976349444"><img src="./icons/phone.svg">  :  +91 8976349444</a>
+        </div>
+    </div>
+
     <a class="credits" target="_blank" href="https://fontawesome.com/license">The icons used in this website are taken from Font Awesome</a>
+    <script src="./js/content.js"></script>
 </body>
 </html>
