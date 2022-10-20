@@ -1,0 +1,4 @@
+gallery.css
+background.png
+gallery.html
+debug.log
